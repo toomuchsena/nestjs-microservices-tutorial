@@ -29,5 +29,6 @@ export class JWTAuthGuard implements CanActivate {
         }),
         map(() => true),
       );
+    //TODO remove map and return true
   }
 }
